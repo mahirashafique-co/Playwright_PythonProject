@@ -12,4 +12,6 @@ def test_flip_card_search(page:Page):
 
     title= page.title()
     print(title)
+    url=page.url
+    print(url)
     expect(page).to_have_title(re.compile(".*mobile*." , re.IGNORECASE))
