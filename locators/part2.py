@@ -4,6 +4,7 @@ from playwright.sync_api import Page , expect
 #get by label
 #get by placeholder
 #get by title
+#get by test_id
 
 
 
@@ -25,13 +26,16 @@ def test_page_label(page:Page):
     page.wait_for_timeout(2000)
 
 
-def test_page_by_placeholder(page:Page):
-    page.goto("https://the-internet.herokuapp.com/login")
-    page.get_by_placeholder("Current Address").fill("test address")
-    page.wait_for_timeout(2000)
-    expect(page.get_by_placeholder("Current Address")).to_be_visible()
-
 def test_page_by_title(page:Page):
-    page.goto("https://the-internet.herokuapp.com/login")
-    expect(page.get_by_title("Login")).to_be_visible()
+    page.goto("https://testautomationpractice.blogspot.com/p/playwrightpractice.html")
+    expect(page.get_by_title("Home page link")).to_have_text("Home")
+    expect(page.get_by_title("HyperText Markup Language")).to_have_text("HTML")
+    page.wait_for_timeout(2000)
+
+
+def test_page_by_test_id(page:Page):
+    page.goto("https://testautomationpractice.blogspot.com/p/playwrightpractice.html")
+    page.wait_for_timeout(2000)
+    expect(page.get_by_test_id("nav-home")).to_be_visible()
+    expect(page.get_by_test_id("profile-name")).to_have_text("John Doe")
     page.wait_for_timeout(2000)

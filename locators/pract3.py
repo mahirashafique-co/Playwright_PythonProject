@@ -11,14 +11,12 @@ def test_pract_day3(page:Page):
     eme.fill("mahira.shafique@hotmail.com")
     expect(eme).to_be_visible()
     page.wait_for_timeout(2000)
-    pas=page.get_by_placeholder("Password")
-    pas.fill("mahiraeee")
-    expect(pas).to_be_visible()
+    page.get_by_placeholder("Password").fill("tst")
+    expect(page.get_by_placeholder("Password")).to_be_visible()
     page.wait_for_timeout(2000)
     butt=page.get_by_role("button", name="login")
     butt.click()
-    expect(butt).to_be_visible(
-
+    expect(butt).to_be_visible()
     page.wait_for_timeout(2000)
 
 

@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00d4df47-36ec-4d25-bc68-077efb469dc3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/locators/buildinlocators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/buildinlocators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locators/pract2.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/pract2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/part2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/pract3.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/pract3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +30,12 @@
     &quot;assignee&quot;: &quot;mahirashafique-co&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://mahirashafique-co@github.com/mahirashafique-co/Playwright_PythonProject.git",
-    "accountId": "c2c21a2c-f99b-4fd1-a4b3-f2611ca177eb"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://mahirashafique-co@github.com/mahirashafique-co/Playwright_PythonProject.git&quot;,
+    &quot;accountId&quot;: &quot;c2c21a2c-f99b-4fd1-a4b3-f2611ca177eb&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2,
   &quot;fromUser&quot;: false
@@ -44,38 +45,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for locators.buildinlocators.test_visible_text_of_page.executor": "Run",
-    "Python tests.Python tests for test_async.test_verifyPageUrl.executor": "Run",
-    "Python tests.Python tests for test_async.test_verify_page_url.executor": "Run",
-    "Python tests.Python tests for test_google.test_open_page_url_click_on_search.executor": "Run",
-    "Python tests.Python tests for test_google.test_verify_page_url.executor": "Run",
-    "Python tests.Python tests for test_google.test_verify_title_of_Webpage.executor": "Coverage",
-    "Python tests.Python tests in buildinlocators.py.executor": "Run",
-    "Python tests.Python tests in prac1.py.executor": "Run",
-    "Python tests.Python tests in test_google.py.executor": "Run",
-    "Python.buildinlocators.executor": "Run",
-    "Python.main.executor": "Debug",
-    "Python.pract3.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/Mahira/PycharmProjects/PythonProject/playwright 001",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for locators.buildinlocators.test_visible_text_of_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_async.test_verifyPageUrl.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_async.test_verify_page_url.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_google.test_open_page_url_click_on_search.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_google.test_verify_page_url.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_google.test_verify_title_of_Webpage.executor&quot;: &quot;Coverage&quot;,
+    &quot;Python tests.Python tests in buildinlocators.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in prac1.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_google.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.buildinlocators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.pract3.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mahira/PycharmProjects/PythonProject/playwright 001&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Mahira\PycharmProjects\PythonProject\playwright 001" />
@@ -230,7 +231,8 @@
       <option name="presentableId" value="Default" />
       <updated>1777591083742</updated>
       <workItem from="1777591084755" duration="30230000" />
-      <workItem from="1777857089426" duration="2503000" />
+      <workItem from="1777857089426" duration="7502000" />
+      <workItem from="1778018452935" duration="4631000" />
     </task>
     <servers />
   </component>
@@ -252,6 +254,6 @@
     <SUITE FILE_PATH="coverage/PythonProject$buildinlocators.coverage" NAME="buildinlocators Coverage Results" MODIFIED="1777853169030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/locators" />
     <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1777591105483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$.coverage" NAME=" Coverage Results" MODIFIED="1777762734727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonProject$pract3.coverage" NAME="pract3 Coverage Results" MODIFIED="1777934913339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/locators" />
+    <SUITE FILE_PATH="coverage/PythonProject$pract3.coverage" NAME="pract3 Coverage Results" MODIFIED="1777944124017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/locators" />
   </component>
 </project>
