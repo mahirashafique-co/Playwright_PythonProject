@@ -15,4 +15,4 @@ def test_orghrm_login(page:Page):
     page.wait_for_timeout(2000)
     page.get_by_role("Heading", name="Dashboard")
     expect(page.get_by_role("heading" , name="Dashboard")).to_be_visible()
-    page.wait_for_timeout(2000)
+    page.wait_for_timeout(3000)
